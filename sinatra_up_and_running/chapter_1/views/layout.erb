@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            My First Form
+        </title>
+        <style>
+            form {
+                background-color: lightblue;
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+                
+            }
+            
+            h1 {
+                background-color: lightgreen;
+                font-family: 'Roboto', sans-serif;
+                font-size: 40px;
+            }
+            
+            p {
+                background-color: lightgrey;
+                font-family: 'Slabo 27px', serif;
+                font-size: 25px;
+            }
+            body {
+                
+                background-color: #cccccc;
+                background-size: 100%;
+                background-position: center;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <%= yield %>
+         </div>
+    </body>
+</html>
